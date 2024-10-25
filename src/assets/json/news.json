@@ -1,0 +1,74 @@
+[
+    {
+        "date": "18/10/2024",
+        "author": "Jathushan & Yanis",
+        "text": "Nouveau test de déploiement sur la borne - contrôles J1 & J2, exit button, AFK kick, API highscores -> Test fonctionnel.",
+        "linkImg": "test1810.webp"
+    },
+    {
+        "date": "15/10/2024",
+        "author": "Jathushan & Yanis",
+        "text": "Relation avec l'API promouvant les highscores opérationnelle (récupération du pseudo du vainqueur et de la distance parcourue).",
+        "linkImg": "highscores.webp"
+    },
+    {
+        "date": "15/10/2024",
+        "author": "Louis",
+        "text": "Création du boost de vitesse",
+        "linkImg": "boost.gif"
+    },
+    {
+        "date": "14/10/2024",
+        "author": "Louis",
+        "text": "Création du décor - fond et montagnes.",
+        "linkImg": "decor.webp"
+    },
+    {
+        "date": "04/10/2024",
+        "author": "Louis",
+        "text": "Création de l'image qui représentera SpeedDocker dans le launcher de la borne.",
+        "linkImg": "launcher.webp"
+    },
+    {
+        "date": "03/10/2024",
+        "author": "Jathushan",
+        "text": "Test des deux joueurs sur la borne d'arcade - contrôles J2, J1 et J2 en simultané, exit button -> Quelques touches J2 ne répondent pas mais test globalement fonctionnel.",
+        "linkImg": "testJ1J2.webp"
+    },
+    {
+        "date": "03/10/2024",
+        "author": "Yanis",
+        "text": "Test du projet sur la borne d'arcade - export WebGL, contrôles J1, contraintes techniques (test fonctionnel).",
+        "linkImg": "borne-arcade-test.webp"
+    },
+    {
+        "date": "02/10/2024",
+        "author": "Louis et Jathushan",
+        "text": "Création du personnage de M. Gommery et de ses animations (idle, run, jump).",
+        "linkImg": "mrgommery-moves.gif"
+    },
+    {
+        "date": "19/09/2024",
+        "author": "Jathushan & Yanis",
+        "text": "Début du prototype de SpeedDocker (mouvements, contrôles).",
+        "linkImg": "prototype.webp"
+    },
+    {
+        "date": "19/09/2024",
+        "author": "Louis et Jathushan",
+        "text": "Création du personnage de Docker et de ses animations (idle, run, jump).",
+        "linkImg": "docker-moves.gif"
+    },
+    {
+        "date": "17/09/2024",
+        "author": "Louis",
+        "text": "Conception du logo de SpeedDocker.",
+        "linkImg": "logo-speeddocker.webp"
+    },
+    {
+        "date": "11/09/2024",
+        "author": "Jathushan & Yanis",
+        "text": "Début d'apprentissage de Godot Engine grâce à des tutos.",
+        "linkImg": "godot-apprentissage.webp"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Godot Engine & GDScript",
+        "img": "godot.png"
+    },
+    {
+        "name": "Pixilart",
+        "img": "pixilart.png"
+    },
+    {
+        "name": "Canva",
+        "img": "canva.png"
+    },
+    {
+        "name": "Vue.js",
+        "img": "vuejs.svg"
+    },
+    {
+        "name": "Trello",
+        "img": "trello.png"
+    },
+    {
+        "name": "Discord",
+        "img": "discord.png"
+    }
+]
