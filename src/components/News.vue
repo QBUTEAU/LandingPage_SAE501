@@ -32,7 +32,7 @@ export default {
         return {
             newsList: newsData,
             currentPage: 1,
-            itemsPerPage: 5
+            itemsPerPage: 6
         };
     },
     computed: {

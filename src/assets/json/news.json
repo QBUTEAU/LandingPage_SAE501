@@ -1,5 +1,11 @@
 [
     {
+        "date": "25/10/2024",
+        "author": "Yanis",
+        "text": "Déploiement de la version ALPHA du jeu sur la borne princpale.",
+        "linkImg": "borne-2510.jpg"
+    },
+    {
         "date": "18/10/2024",
         "author": "Jathushan & Yanis",
         "text": "Nouveau test de déploiement sur la borne - contrôles J1 & J2, exit button, AFK kick, API highscores -> Test fonctionnel.",
@@ -52,6 +58,12 @@
         "author": "Jathushan & Yanis",
         "text": "Début du prototype de SpeedDocker (mouvements, contrôles).",
         "linkImg": "prototype.webp"
+    },
+    {
+        "date": "19/09/2024",
+        "author": "Quentin",
+        "text": "Création du fichier permettant de promouvoir les informations du jeu sur le launcher.",
+        "linkImg": "info-json.png"
     },
     {
         "date": "19/09/2024",
