@@ -6,10 +6,10 @@
             M. Gommery, enseignant emblématique de la formation MMI de l'établissement.
         </p>
         <p>
-            Les joueurs doivent naviguer dans un parcours rempli d'obstacles et de power-up. Mais attention ! Au bout
-            d'un certain temps, une zone arrive et fait rétrécir la zone de jeu. Le premier à être toucher par cette
-            zone
-            perd la manche et le premier à en gagner trois est couronné vainqueur. Le gameplay, inspiré de
+            Les joueurs doivent naviguer dans un parcours rempli d'obstacles et de power-ups. Mais attention ! Au bout
+            d'un certain temps, les obstacles deviennent éliminatoires et les toucher peuvent être fatales.
+            Le premier joueur à sortir de l'écran est éliminé.
+            Le gameplay, inspiré de
             <a href="https://fr.wikipedia.org/wiki/SpeedRunners" target="_blank">SpeedRunners</a>, se distingue par ses
             graphismes rétro et sa bande-son dynamique.
         </p>

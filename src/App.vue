@@ -85,13 +85,13 @@ export default {
     <div class="presentation__infos">
       <div class="presentation-infos__bar">
         <div v-if="showSAEProgress">
-          <p class="span-sae"><span>47%</span> du temps de travail passé.</p>
+          <p class="span-sae"><span>51%</span> du temps de travail passé.</p>
           <div class="progress-bar__sae">
             <div class="progress-bar-sae__lvl"></div>
           </div>
         </div>
         <div v-else>
-          <p class="span-team"><span>39%</span> du projet réalisé à ce jour.</p>
+          <p class="span-team"><span>50%</span> du projet réalisé à ce jour.</p>
           <div class="progress-bar__team">
             <div class="progress-bar-team__lvl"></div>
           </div>
@@ -105,15 +105,15 @@ export default {
         Troyes.
         Inspiré du jeu SpeedRunners, il met en scène deux personnages emblématiques : la baleine de l'application Docker
         et M. Gommery, enseignant du département.
-        Le principe est simple : survivre le plus longtemps possible tout en évitant les obstacles, tout en prenant en
-        compte que la zone jouable se rétrécit progressivement.
-        Le premier à toucher la zone hors-limite est éliminé !
+        Le principe est simple : survivre le plus longtemps possible en évitant les obstacles et grâce à des power-ups, tout en prenant en
+        compte que les obstacles deviennent éliminatoires au bout d'un certain temps.
+        Le premier à être hors-champ est éliminé !
         Avec ses mécaniques dynamiques et son rythme effréné, SpeedDocker promet des parties courtes mais intenses,
         idéales pour un environnement d'arcade.</p>
     </div>
   </div>
 
-  <div class="fond-blanc"></div>
+  <div class="fond-vide"></div>
 
   <Technologies />
 
@@ -146,9 +146,9 @@ export default {
     <div class="infos__projet" ref="infosProjet">
       <!-- If the window width is below 950px, display all components -->
       <Description v-if="currentComponent === 'Description' || shouldShowAllComponents" />
+      <Avancee v-if="currentComponent === 'Avancee' || shouldShowAllComponents" />
       <NoteCadrage v-if="currentComponent === 'NoteCadrage' || shouldShowAllComponents" />
       <Planning v-if="currentComponent === 'Planning' || shouldShowAllComponents" />
-      <Avancee v-if="currentComponent === 'Avancee' || shouldShowAllComponents" />
       <EtatArtDomaine v-if="currentComponent === 'EtatArtDomaine' || shouldShowAllComponents" />
     </div>
 
@@ -157,7 +157,7 @@ export default {
   </div>
 
   <footer>
-    <p>© 2024 - Octo Studio | <a href="http://qbuteau.fr" target="_blank">Quentin BUTEAU</a> - Tous droits réservés</p>
+    <p>© 2024. Octo Studio - Tous droits réservés</p>
   </footer>
 </template>
 

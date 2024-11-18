@@ -8,8 +8,11 @@
                 <a :href="member.portfolio" target="_blank" class="portfolio-link">
                     <i class="fa-solid fa-link"></i>
                 </a>
-                <a :href="member.github" target="_blank" class="github-link">
+                <a v-if="member.github" :href="member.github" target="_blank" class="github-link">
                     <i class="fa-brands fa-github"></i>
+                </a>
+                <a v-else-if="member.behance" :href="member.behance" target="_blank" class="behance-link">
+                    <i class="fa-brands fa-behance"></i>
                 </a>
             </div>
         </div>
@@ -28,7 +31,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .member__links {
     display: flex;
     justify-content: center;

@@ -1,9 +1,33 @@
 [
     {
+        "date": "14/11/2024",
+        "author": "Quentin & Jathushan",
+        "text": "Affichage des highscores après l'ajout du pseudonyme du vainqueur - Récupération des 10 meilleurs scores.",
+        "linkImg": "highscores-apresgame.webp"
+    },
+    {
+        "date": "14/11/2024",
+        "author": "Quentin & Jathushan",
+        "text": "Mise en place de l'ajout du pseudonyme du vainqueur, envoi des données vers l'API des highscores fonctionnel.",
+        "linkImg": "pseudo-highscores.webp"
+    },
+    {
+        "date": "13/11/2024",
+        "author": "Quentin & Jathushan",
+        "text": "Mise en place du menu d'accueil du jeu avec des boutons intuitifs.",
+        "linkImg": "menu.png"
+    },
+    {
+        "date": "13/11/2024",
+        "author": "Louis & Quentin",
+        "text": "Génération des musiques via 'suno.com' - Menu, jeu, victoire et évènements d'obstacles et power-ups.",
+        "linkImg": "suno.webp"
+    },
+    {
         "date": "25/10/2024",
         "author": "Yanis",
-        "text": "Déploiement de la version ALPHA du jeu sur la borne princpale.",
-        "linkImg": "borne-2510.jpg"
+        "text": "Déploiement de la version BETA du jeu sur la borne princpale.",
+        "linkImg": "borne-2510.webp"
     },
     {
         "date": "18/10/2024",
@@ -20,7 +44,7 @@
     {
         "date": "15/10/2024",
         "author": "Louis",
-        "text": "Création du boost de vitesse",
+        "text": "Création du boost de vitesse.",
         "linkImg": "boost.gif"
     },
     {
@@ -38,7 +62,7 @@
     {
         "date": "03/10/2024",
         "author": "Jathushan",
-        "text": "Test des deux joueurs sur la borne d'arcade - contrôles J2, J1 et J2 en simultané, exit button -> Quelques touches J2 ne répondent pas mais test globalement fonctionnel.",
+        "text": "Test des deux joueurs sur la borne d'arcade - contrôles J2, J1 et J2 en simultané, exit button -> Touches J2 partiellement défaillantes, test ok.",
         "linkImg": "testJ1J2.webp"
     },
     {

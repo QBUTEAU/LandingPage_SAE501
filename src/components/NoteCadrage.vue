@@ -7,8 +7,8 @@
             un jeu vidéo. Le choix du type
             de jeu était varié et nous avons choisi de créer SpeedDocker, un jeu sur borne d'arcade qui permet d'avoir
             un affrontement entre Docker et M. Gommery, qui doivent survivre le plus longtemps possible dans un parcours
-            d'obstacle et contrer une zone rétrécissante. Le tout se fait en cinq manches maximum, le premier joueur à
-            toucher la zone perd la manche et le premier à trois manches gagnantes remporte la partie.</p>
+            d'obstacles plus ou moins éliminatoires. Le premier joueur à sortir de l'écran perd la manche et par conséquent, 
+            l'autre l'emporte.</p>
         <!--  -->
         <h5>2. Objectifs du projet</h5>
         <p>
@@ -46,8 +46,7 @@
         <!--  -->
         <h5>5. Acteurs</h5>
         <ul>
-            <li><strong>Quentin BUTEAU</strong> - Chef de projet, créateur de la landing page et assistant au
-                développement et à l'UX ;</li>
+            <li><strong>Quentin BUTEAU</strong> - Chef de projet, créateur de la landing page, UX et UI Designer ;</li>
             <li><strong>Jathushan SELVARAJAH</strong> et <strong>Yanis TAYE</strong> - Game Designers, développeurs du
                 jeu dans son entièreté ;</li>
             <li><strong>Louis THOMAS</strong> - Graphiste, créateur des personnages, du décor et gérant de l'UX.</li>
@@ -56,10 +55,9 @@
         </ul>
         <!--  -->
         <h5>6. Ressources</h5>
-        <p>Les ressources comprennent l'équipe dans sa totalité, à savoir Quentin pour la gestion de projet et le suivi
-            de celui-ci, Jathushan et Yanis pour le développement du jeu et Louis pour l'expérience utilisateur et le
-            design. Chacun amène ses compétences et connaissances à ce projet afin d'avancer ensemble vers un résultat
-            convaincant.</p>
+        <p>Les ressources comprennent l'équipe dans sa totalité, à savoir Jathushan et Yanis pour le développement du jeu 
+            et Louis et Quentin pour la gestion de projet, l'expérience utilisateur et le design. Chacun amène ses compétences
+            et connaissances à ce projet afin d'avancer ensemble vers un résultat convaincant.</p>
         <p>Le materiel est également compris dans les ressources, comme les ordinateurs de chacun, mais aussi les
             logiciels tels
             que Godot Engine pour le développement du jeu, Pixilart.com pour la création des sprites et des décors,

@@ -10,21 +10,21 @@
         "name": "Jathushan SELVARAJAH",
         "className": "jathushan",
         "role": "Game Designer",
-        "portfolio": "https://mmi22g05.mmi-troyes.fr/",
+        "portfolio": "http://mmi22g05.mmi-troyes.fr",
         "github": "https://github.com/Jathushanselvarajah"
     },
     {
         "name": "Yanis TAYE",
         "className": "yanis",
         "role": "Game Designer",
-        "portfolio": "http://mmi22g09.mmi-troyes.fr/portfolio/",
+        "portfolio": "http://mmi22g09.mmi-troyes.fr/portfolio",
         "github": "https://github.com/TayeYanis"
     },
     {
         "name": "Louis THOMAS",
         "className": "louis",
         "role": "Graphiste",
-        "portfolio": "https://mmi22g10.mmi-troyes.fr/portfolio/",
-        "github": "https://github.com/1LouisThomas"
+        "portfolio": "http://mmi22g10.mmi-troyes.fr/portfolio",
+        "behance": "https://www.behance.net/louis_thomas"
     }
 ]

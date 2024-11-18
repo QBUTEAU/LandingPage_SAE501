@@ -14,7 +14,7 @@ $boxShadowBlack: rgba(0, 0, 0, 0.5);
 
 /* Styles pour la scrollbar */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 12px;
 }
 
 /* Track de la scrollbar */
@@ -25,6 +25,8 @@ $boxShadowBlack: rgba(0, 0, 0, 0.5);
 /* Handle de la scrollbar (élément que l'on déplace) */
 ::-webkit-scrollbar-thumb {
     background-color: $darkGrey;
+    border-radius: 10px;
+    border: 2px solid $lightGrey;
 }
 
 /* Hover sur le handle */
@@ -100,7 +102,7 @@ br {
         height: 100%;
 
         .presentation-screen__img {
-            background: url('../img/launcher.webp');
+            background: url('../img/menu.png');
             background-size: cover;
             background-position: center;
             margin-left: 5%;
@@ -168,7 +170,7 @@ br {
                 margin: 0 auto;
 
                 .progress-bar-team__lvl {
-                    width: 39%;
+                    width: 50%;
                     height: 100%;
                     background-color: $lightGreen;
                     border-radius: 20px 0 0 20px;
@@ -195,7 +197,7 @@ br {
                 margin: 0 auto;
 
                 .progress-bar-sae__lvl {
-                    width: 47%;
+                    width: 51%;
                     height: 100%;
                     background-color: $green;
                     border-radius: 20px 0 0 20px;
@@ -217,9 +219,10 @@ br {
     }
 }
 
-.fond-blanc {
+.fond-vide {
     height: 60vh;
     width: 100vw;
+    background-color: $darkGrey;
 }
 
 .techno {
@@ -246,7 +249,7 @@ br {
             flex-direction: column;
             align-items: center;
             padding: 20px;
-            width: 120px;
+            width: 150px;
             height: 200px;
             border-radius: 10px;
             border: 2px solid grey;
@@ -487,13 +490,14 @@ button {
             margin: 0 auto;
             margin-top: 20px;
             width: 85%;
+            height: 75px;
             padding: 15px;
             border: 1px solid grey;
             border-radius: 5px;
 
             .news__text {
                 margin: 0;
-                font-size: 13px;
+                font-size: 11.5px;
 
                 span {
                     font-size: 11px;
@@ -525,11 +529,11 @@ button {
 
 footer {
     margin-top: 50px;
+    width: 100vw;
     color: white;
     padding: 10px;
     text-align: center;
     font-weight: 600;
-    width: 100vw;
     background-color: $darkGrey;
 
     a {
@@ -612,6 +616,10 @@ footer {
 
     .fond-blanc {
         height: 85vh;
+    }
+
+    .techno {
+        padding: 200px 0 100px 0;
     }
 
     .members {
@@ -709,6 +717,7 @@ footer {
 
             h2 {
                 padding-left: 20px !important;
+                margin-bottom: 15px;
             }
 
             .news {

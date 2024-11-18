@@ -19,14 +19,8 @@
             déséquilibres stratégiques. Dans SpeedDocker, ces éléments intensifient l’action en rendant les parties
             imprévisibles et hautement compétitives.</p>
 
-        <h5>4. Zone rétrécissante</h5>
-        <p>Le concept de zone rétrécissante, issu des jeux de type <b>Battle Royale</b>, comme <u>Fortnite</u> ou
-            <u>PUBG</u>, est ici adapté
-            à un cadre arcade. Cette mécanique augmente la pression sur les joueurs, raccourcissant le temps des manches
-            et maintenant une dynamique soutenue.
-        </p>
 
-        <h5>5. Références culturelles</h5>
+        <h5>4. Références culturelles</h5>
         <p>L’intégration de personnages comme la baleine de Docker et M. Gommery ajoute une touche humoristique et
             personnalisée, rappelant les références décalées et ludiques des jeux comme <u>Super Smash Bros</u> ou
             <u>Astro Bot</u>.

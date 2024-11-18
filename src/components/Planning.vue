@@ -41,12 +41,12 @@
         <h6>L'ensemble du projet sera accompagné de plusieurs phases de présentation et de mises au point intermédiaires
             :</h6>
         <ul>
-            <li>Validité du développement sur la borne de test (contrôles J1 & J2, exit button, AFK kick) : 18
-                octobre 2023</li>
-            <li>Déploiement de la version BETA : <u>25 octobre 2024</u></li>
-            <li>Pitch de présentation : 13 novembre 2024</li>
-            <li>Review du projet : N/A</li>
-            <li>Landing Page du projet : N/A</li>
+            <li>✅ Validité du développement sur la borne de test (contrôles J1 & J2, exit button, AFK kick) : <strong>18
+                octobre 2024</strong></li>
+            <li>✅ Déploiement de la version BETA : <strong>25 octobre 2024</strong></li>
+            <li>⏳ Pitch de présentation : <strong>19 novembre 2024</strong></li>
+            <li>⏳ Review du projet : <strong>N/A</strong></li>
+            <li>⏳ Landing Page du projet : <strong>N/A</strong></li>
         </ul>
     </div>
 </template>
