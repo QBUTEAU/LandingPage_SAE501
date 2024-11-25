@@ -2,7 +2,7 @@
   <div class="infos__news" ref="infosNews">
     <h2>NEWS</h2>
     <div v-if="newsList.length">
-      <div v-for="newsItem in paginatedNews" :key="newsItem.date" class="news">
+      <div v-for="(newsItem, index) in paginatedNews" :key="index" :class="['news', { 'most-recent': isMostRecent(newsItem) }]">
         <div class="news__img" :style="{ backgroundImage: `url(${getImageUrl(newsItem.linkImg)})` }"></div>
         <p class="news__text">
           <span>{{ newsItem.author }} - {{ newsItem.date }}</span><br>
@@ -41,6 +41,11 @@ export default {
       const start = (this.currentPage - 1) * this.itemsPerPage;
       const end = start + this.itemsPerPage;
       return this.newsList.slice(start, end);
+    },
+    mostRecentNews() {
+      return this.newsList.reduce((latest, newsItem) => {
+        return new Date(newsItem.date) > new Date(latest.date) ? newsItem : latest;
+      }, this.newsList[0]);
     }
   },
   methods: {
@@ -63,21 +68,24 @@ export default {
       this.$nextTick(() => {
         const targetElement = this.$refs.infosNews;
         if (targetElement) {
-          const offsetTop = targetElement.getBoundingClientRect().top + window.pageYOffset - 50;
+          const offsetTop = targetElement.getBoundingClientRect().top + window.pageYOffset - 30;
           window.scrollTo({
             top: offsetTop,
             behavior: 'smooth'
           });
         }
       });
+    },
+    isMostRecent(newsItem) {
+      return newsItem === this.mostRecentNews;
     }
   }
 }
 </script>
 
 <style scoped>
-button.disabled {
-    background-color: rgb(195, 195, 195);
-    cursor: not-allowed;
+.pagination button.disabled {
+  background-color: rgb(195, 195, 195);
+  cursor: not-allowed;
 }
 </style>

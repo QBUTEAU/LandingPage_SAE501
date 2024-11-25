@@ -85,13 +85,13 @@ export default {
     <div class="presentation__infos">
       <div class="presentation-infos__bar">
         <div v-if="showSAEProgress">
-          <p class="span-sae"><span>51%</span> du temps de travail passé.</p>
+          <p class="span-sae"><span>58%</span> du temps de travail passé.</p>
           <div class="progress-bar__sae">
             <div class="progress-bar-sae__lvl"></div>
           </div>
         </div>
         <div v-else>
-          <p class="span-team"><span>50%</span> du projet réalisé à ce jour.</p>
+          <p class="span-team"><span>58%</span> du projet réalisé à ce jour.</p>
           <div class="progress-bar__team">
             <div class="progress-bar-team__lvl"></div>
           </div>
@@ -157,7 +157,7 @@ export default {
   </div>
 
   <footer>
-    <p>© 2024. Octo Studio - Tous droits réservés</p>
+    <p>© 2024. Conçu avec le <i class="fa-solid fa-heart fa-beat-fade" style="color: #e71818;"></i>  par Octo Studio - Tous droits réservés</p>
   </footer>
 </template>
 

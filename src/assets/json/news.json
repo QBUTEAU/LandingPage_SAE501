@@ -1,5 +1,11 @@
 [
     {
+        "date": "18/11/2024",
+        "author": "Octo Studio",
+        "text": "Pitch de présentation du projet SpeedDocker.",
+        "linkImg": "pitch_1811.webp"
+    },
+    {
         "date": "14/11/2024",
         "author": "Quentin & Jathushan",
         "text": "Affichage des highscores après l'ajout du pseudonyme du vainqueur - Récupération des 10 meilleurs scores.",
@@ -18,12 +24,6 @@
         "linkImg": "menu.png"
     },
     {
-        "date": "13/11/2024",
-        "author": "Louis & Quentin",
-        "text": "Génération des musiques via 'suno.com' - Menu, jeu, victoire et évènements d'obstacles et power-ups.",
-        "linkImg": "suno.webp"
-    },
-    {
         "date": "25/10/2024",
         "author": "Yanis",
         "text": "Déploiement de la version BETA du jeu sur la borne princpale.",
@@ -40,12 +40,6 @@
         "author": "Jathushan & Yanis",
         "text": "Relation avec l'API promouvant les highscores opérationnelle (récupération du pseudo du vainqueur et de la distance parcourue).",
         "linkImg": "highscores.webp"
-    },
-    {
-        "date": "15/10/2024",
-        "author": "Louis",
-        "text": "Création du boost de vitesse.",
-        "linkImg": "boost.gif"
     },
     {
         "date": "14/10/2024",
@@ -87,7 +81,7 @@
         "date": "19/09/2024",
         "author": "Quentin",
         "text": "Création du fichier permettant de promouvoir les informations du jeu sur le launcher.",
-        "linkImg": "info-json.png"
+        "linkImg": "info-json.webp"
     },
     {
         "date": "19/09/2024",

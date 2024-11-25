@@ -1,17 +1,21 @@
 <template>
     <div class="avancee" id="avancee">
         <h2>AVANCÉE DU PROJET</h2>
-        <p><strong>Phase de conception</strong> ✅</p>
-        <p>À l'heure actuelle, nous avons créer les deux personnages du jeu : Docker et M. Gommery,
-            le prototype du jeu avec les déplacements propres aux deux joueurs et leurs animations.
-            Nous avons également réussi le développement du jeu sur la borne d'arcade de développement,
-            permettant ainsi de vérifier le début de prototypage réalisé.</p>
 
-        <p>Actuellement, nous sommes en phase de prototypage, avec des tests sur le gameplay,
-            la jouabilité et l'ajustement des mécaniques de jeu à deux joueurs, la création du décor
-            avec les différents éléments présents en fond de gameplay, ainsi que la mise en place d'une
-            API permettant de gérer les "highscores", prenant en compte le pseudo du vainqueur et son score.</p>
-        <p class="avancee-maj">Mis à jour le 15/10/2024 à 10h15</p>
+        <p>À l'heure actuelle, le menu du jeu est opérationel, permettant un accès direct au jeu, de le quitter
+            ou bien de voir les 10 meilleurs scores du jeu. Les deux personnages sont jouables, avec des animations
+            idle - jump - run. Lorsque qu'un personnage sort du cadre de jeu, la partie se termine et l'écriture du
+            pseudonyme du vainqueur est demandée. Une fois ajouté, les 10 meilleurs scores mis à jour s'affichent,
+            avec le nouveau score si celui-ci est suffisant pour être dans le top 10, puis il faut revenir au menu
+            et relancer une partie pour rejouer.
+        </p>
+
+        <p>Actuellement, nous créons un système de maps aléatoires, nous ajoutons des power-ups et des obstacles ainsi que
+            leurs animations pouvant jouer en la faveur de l'un et la défaveur de l'autre, une animation lors de
+            la victoire d'un joueur différente selon le personnage et un compte à rebord avant le début de la partie.
+            Nous sommes également en pleine création d'une Attract Mode, qui aura pour but d'attirer les futurs joueurs.
+        </p>
+        <p class="avancee-maj">Mis à jour le 25/11/2024 à 11h26</p>
     </div>
 </template>
 

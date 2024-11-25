@@ -7,7 +7,7 @@
             un jeu vidéo. Le choix du type
             de jeu était varié et nous avons choisi de créer SpeedDocker, un jeu sur borne d'arcade qui permet d'avoir
             un affrontement entre Docker et M. Gommery, qui doivent survivre le plus longtemps possible dans un parcours
-            d'obstacles plus ou moins éliminatoires. Le premier joueur à sortir de l'écran perd la manche et par conséquent, 
+            d'obstacles plus ou moins éliminatoires. Le premier joueur à sortir de l'écran perd la partie et par conséquent, 
             l'autre l'emporte.</p>
         <!--  -->
         <h5>2. Objectifs du projet</h5>
@@ -17,7 +17,7 @@
             et 3D que nous apprenons à utiliser pendant ce projet.
         </p>
         <p>
-            Notre objectif à nous est de promouvoir un jeu vidéo stimulant l'interaction sociale le tout dans un format
+            Quant à nous, notre objectif est de promouvoir un jeu vidéo stimulant l'interaction sociale le tout dans un format
             compétitif sain où les joueurs peuvent se mesurer les uns aux autres, avec un gameplay dynamique et rythmé
             mettant à l'épreuve la réactivité et la stratégie des joueurs, dans un environnement restant dans l'univers
             de la formation, à travers les personnages et le décor. Le tout en démontrant nos capacités à proposer un

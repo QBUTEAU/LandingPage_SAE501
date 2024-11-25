@@ -12,6 +12,10 @@
         "img": "canva.png"
     },
     {
+        "name": "Figma",
+        "img": "figma.png"
+    },
+    {
         "name": "Vue.js",
         "img": "vuejs.svg"
     }

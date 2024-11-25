@@ -44,9 +44,9 @@
             <li>✅ Validité du développement sur la borne de test (contrôles J1 & J2, exit button, AFK kick) : <strong>18
                 octobre 2024</strong></li>
             <li>✅ Déploiement de la version BETA : <strong>25 octobre 2024</strong></li>
-            <li>⏳ Pitch de présentation : <strong>19 novembre 2024</strong></li>
-            <li>⏳ Review du projet : <strong>N/A</strong></li>
-            <li>⏳ Landing Page du projet : <strong>N/A</strong></li>
+            <li>✅ Pitch de présentation : <strong>18 novembre 2024</strong></li>
+            <li>⏳ Review du projet : <strong>TBA</strong></li>
+            <li>⏳ Landing Page du projet : <strong>TBA</strong></li>
         </ul>
     </div>
 </template>
