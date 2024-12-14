@@ -1,7 +1,7 @@
 {
     "name": "SpeedDocker",
-    "description": "Seul le dernier à rester dans l'écran triomphera dans SpeedDocker, le jeu d'arcade explosif entre Docker et M. Gommery. - Crée par Jathushan Selvarajah, Yanis Taye, Quentin Buteau et Louis Thomas.",
-    "creator": "Octo Studio | JS - YT - QB - LT",
+    "description": "SpeedDocker est un speedrun en 2D dans lequel 2 joueurs s'affrontent sous la forme de la baleine de Docker et P. Gomgom. Le but est d'aller le plus loin possible et le premier joueur à sortir de l'écran fait gagner l'autre !",
+    "creator": "Jathushan Selvarajah, Yanis Taye, Quentin Buteau et Louis Thomas",
     "year": "2024",
     "type": "Jeu de plateforme",
     "players": "2",

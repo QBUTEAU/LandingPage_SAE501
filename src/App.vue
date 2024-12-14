@@ -43,7 +43,7 @@ export default {
         this.$nextTick(() => {
           const targetElement = this.$refs.infosProjet;
           if (targetElement) {
-            const offsetTop = targetElement.getBoundingClientRect().top + window.pageYOffset - 50;
+            const offsetTop = targetElement.getBoundingClientRect().top + window.pageYOffset - 30;
             window.scrollTo({
               top: offsetTop,
               behavior: 'smooth'
@@ -71,7 +71,7 @@ export default {
 <template>
   <header class="hero-header">
     <h1>SpeedDocker</h1>
-    <h4>Le premier speedrun faisant affronter Docker et M. Gommery !</h4>
+    <h4>Le premier speedrun faisant affronter Docker et P. Gomgom !</h4>
   </header>
 
   <div class="presentation">
@@ -104,9 +104,9 @@ export default {
       <p>SpeedDocker est un jeu d'arcade rapide et compétitif, conçu pour la borne de la formation MMI de l'IUT de
         Troyes.
         Inspiré du jeu SpeedRunners, il met en scène deux personnages emblématiques : la baleine de l'application Docker
-        et M. Gommery, enseignant du département.
-        Le principe est simple : survivre le plus longtemps possible en évitant les obstacles et grâce à des power-ups, tout en prenant en
-        compte que les obstacles deviennent éliminatoires au bout d'un certain temps.
+        et P. Gomgom.
+        Le principe est simple : survivre le plus longtemps possible en évitant les obstacles et grâce à des power-ups, et
+        plus la partie dure, plus ça devient compliqué !
         Le premier à être hors-champ est éliminé !
         Avec ses mécaniques dynamiques et son rythme effréné, SpeedDocker promet des parties courtes mais intenses,
         idéales pour un environnement d'arcade.</p>
@@ -157,7 +157,7 @@ export default {
   </div>
 
   <footer>
-    <p>© 2024. Conçu avec le <i class="fa-solid fa-heart fa-beat-fade" style="color: #e71818;"></i>  par Octo Studio - Tous droits réservés</p>
+    <p>© 2024. Octo Studio - Tous droits réservés</p>
   </footer>
 </template>
 

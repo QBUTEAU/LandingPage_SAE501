@@ -1,5 +1,17 @@
 [
     {
+        "date": "28/11/2024",
+        "author": "Louis et Jathushan",
+        "text": "Création de la première version de l'Attract Mode et déploiement de celle-ci et de la nouvelle version du jeu sur la borne principale.",
+        "linkImg": "attract_beta.gif"
+    },
+    {
+        "date": "28/11/2024",
+        "author": "Louis et Jathushan",
+        "text": "Mise en place d'un compte à rebours, qui se lance au démarrage d'une partie.",
+        "linkImg": "countdown.gif"
+    },
+    {
         "date": "18/11/2024",
         "author": "Octo Studio",
         "text": "Pitch de présentation du projet SpeedDocker.",
@@ -8,7 +20,7 @@
     {
         "date": "14/11/2024",
         "author": "Quentin & Jathushan",
-        "text": "Affichage des highscores après l'ajout du pseudonyme du vainqueur - Récupération des 10 meilleurs scores.",
+        "text": "Affichage des highscores après l'ajout du pseudonyme du vainqueur - Récupération des 11 meilleurs scores.",
         "linkImg": "highscores-apresgame.webp"
     },
     {
@@ -21,12 +33,12 @@
         "date": "13/11/2024",
         "author": "Quentin & Jathushan",
         "text": "Mise en place du menu d'accueil du jeu avec des boutons intuitifs.",
-        "linkImg": "menu.png"
+        "linkImg": "menu.webp"
     },
     {
         "date": "25/10/2024",
         "author": "Yanis",
-        "text": "Déploiement de la version BETA du jeu sur la borne princpale.",
+        "text": "Déploiement de la première version BETA du jeu sur la borne princpale.",
         "linkImg": "borne-2510.webp"
     },
     {
@@ -68,7 +80,7 @@
     {
         "date": "02/10/2024",
         "author": "Louis et Jathushan",
-        "text": "Création du personnage de M. Gommery et de ses animations (idle, run, jump).",
+        "text": "Création du personnage de P. Gomgom et de ses animations (idle, run, jump).",
         "linkImg": "mrgommery-moves.gif"
     },
     {

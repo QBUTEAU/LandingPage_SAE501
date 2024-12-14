@@ -6,7 +6,7 @@
         <p>Pour rappel, nous sommes <strong>Octo Studio</strong>, un groupe de quatre étudiants qui a pour but de créer
             un jeu vidéo. Le choix du type
             de jeu était varié et nous avons choisi de créer SpeedDocker, un jeu sur borne d'arcade qui permet d'avoir
-            un affrontement entre Docker et M. Gommery, qui doivent survivre le plus longtemps possible dans un parcours
+            un affrontement entre Docker et P. Gomgom, qui doivent survivre le plus longtemps possible dans un parcours
             d'obstacles plus ou moins éliminatoires. Le premier joueur à sortir de l'écran perd la partie et par conséquent, 
             l'autre l'emporte.</p>
         <!--  -->

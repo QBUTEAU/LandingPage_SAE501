@@ -21,7 +21,7 @@
 
 
         <h5>4. Références culturelles</h5>
-        <p>L’intégration de personnages comme la baleine de Docker et M. Gommery ajoute une touche humoristique et
+        <p>L’intégration de personnages comme la baleine de Docker et P. Gomgom ajoute une touche humoristique et
             personnalisée, rappelant les références décalées et ludiques des jeux comme <u>Super Smash Bros</u> ou
             <u>Astro Bot</u>.
             Cela apporte une originalité visuelle et narrative au projet.

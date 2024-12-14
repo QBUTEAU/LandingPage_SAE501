@@ -9,11 +9,15 @@
     },
     {
         "name": "Canva",
-        "img": "canva.png"
+        "img": "canva.webp"
     },
     {
         "name": "Figma",
         "img": "figma.png"
+    },
+    {
+        "name": "CapCut",
+        "img": "capcut.webp"
     },
     {
         "name": "Vue.js",

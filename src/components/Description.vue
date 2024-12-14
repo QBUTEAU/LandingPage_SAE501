@@ -2,8 +2,7 @@
     <div class="description" id="description">
         <h2>DESCRIPTION DU PROJET</h2>
         <p>SpeedDocker est un jeu d'arcade rapide, compétitif et immersif, gratuit et accessible dans le bâtiment H de
-            l'IUT de Troyes, il oppose deux joueurs incarnant Docker, symbole de la plateforme de conteneurisation, et
-            M. Gommery, enseignant emblématique de la formation MMI de l'établissement.
+            l'IUT de Troyes. Il oppose deux joueurs incarnant la baleine de Docker et P. Gomgom.
         </p>
         <p>
             Les joueurs doivent naviguer dans un parcours rempli d'obstacles et de power-ups. Mais attention ! Au bout
