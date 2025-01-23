@@ -2,28 +2,28 @@
     {
         "name": "Quentin BUTEAU",
         "className": "quentin",
-        "role": "Promoteur du projet",
+        "role": "Chef du projet - UI/UX Designer",
         "portfolio": "http://qbuteau.fr",
         "github": "https://github.com/QBUTEAU"
     },
     {
         "name": "Jathushan SELVARAJAH",
         "className": "jathushan",
-        "role": "Game Designer",
+        "role": "Game Developer",
         "portfolio": "http://mmi22g05.mmi-troyes.fr",
         "github": "https://github.com/Jathushanselvarajah"
     },
     {
         "name": "Yanis TAYE",
         "className": "yanis",
-        "role": "Game Designer",
+        "role": "Game Developer",
         "portfolio": "http://mmi22g09.mmi-troyes.fr/portfolio",
         "github": "https://github.com/TayeYanis"
     },
     {
         "name": "Louis THOMAS",
         "className": "louis",
-        "role": "Graphiste",
+        "role": "UI/UX Designer - Monteur vidéo ",
         "portfolio": "http://mmi22g10.mmi-troyes.fr/portfolio",
         "behance": "https://www.behance.net/louis_thomas"
     }

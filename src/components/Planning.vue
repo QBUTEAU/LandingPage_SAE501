@@ -33,17 +33,17 @@
         <p>Vérification finale du jeu et derniers ajustements, installation du jeu sur la borne d'arcade principale et
             le rendre accessible à tous -
             Configuration complète, test final sur la borne, validation
-            officielle avec les parties prenantes et derniers ajustements.,
+            officielle avec les parties prenantes et derniers ajustements,
             tests du fonctionnement et déploiement officiel du jeu et de sa brève documentation sur le launcher.</p>
 
         <hr>
 
-        <h6>L'ensemble du projet sera accompagné de plusieurs phases de présentation et de mises au point intermédiaires
+        <h6>L'ensemble du projet est accompagné de plusieurs phases de présentation et de mises au point intermédiaires
             :</h6>
         <ul>
             <li>✅ Validité du développement sur la borne de test (contrôles J1 & J2, exit button, AFK kick) : <strong>18
                 octobre 2024</strong></li>
-            <li>✅ Déploiement de la version BETA : <strong>25 octobre 2024</strong></li>
+            <li>✅ Déploiement d'une première version ALPHA : <strong>25 octobre 2024</strong></li>
             <li>✅ Pitch de présentation : <strong>18 novembre 2024</strong></li>
             <li>⏳ Review du projet : <strong>TBA</strong></li>
             <li>⏳ Landing Page du projet : <strong>TBA</strong></li>

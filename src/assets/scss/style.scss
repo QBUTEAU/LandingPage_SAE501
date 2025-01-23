@@ -12,6 +12,13 @@ $darkGrey: #343a40;
 $boxShadowGrey: rgba(255, 255, 255, 0.5);
 $boxShadowBlack: rgba(0, 0, 0, 0.5);
 
+@font-face {
+    font-family: 'Joystix';
+    src: url('../font/joystix.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Styles pour la scrollbar */
 ::-webkit-scrollbar {
     width: 12px;
@@ -50,6 +57,7 @@ body {
 h2 {
     text-align: center;
     margin: 0;
+    text-transform: uppercase;
 }
 
 br {
@@ -105,10 +113,11 @@ br {
             background: url('../img/attract_beta.gif');
             background-size: cover;
             background-position: center;
-            margin-left: 5%;
             width: 90%;
             height: 80%;
-            margin-top: 3vh;
+            margin: 4.5% 0 0 5%;
+            border: 2px solid grey;
+            border-radius: 5px;
         }
 
         .presentation-screen__type {
@@ -170,7 +179,7 @@ br {
                 margin: 0 auto;
 
                 .progress-bar-team__lvl {
-                    width: 58%;
+                    width: 77%;
                     height: 100%;
                     background-color: $lightGreen;
                     border-radius: 20px 0 0 20px;
@@ -181,6 +190,8 @@ br {
                 margin-bottom: 5px;
 
                 span {
+                    font-family: "Joystix";
+                    font-size: 15px;
                     color: $lightGreen;
                     background-color: $darkGrey;
                     padding: 5px 10px;
@@ -197,7 +208,7 @@ br {
                 margin: 0 auto;
 
                 .progress-bar-sae__lvl {
-                    width: 58%;
+                    width: 72%;
                     height: 100%;
                     background-color: $green;
                     border-radius: 20px 0 0 20px;
@@ -208,6 +219,8 @@ br {
                 margin-bottom: 5px;
 
                 span {
+                    font-family: "Joystix";
+                    font-size: 15px;
                     color: $green;
                     background-color: $darkGrey;
                     padding: 5px 10px;
@@ -240,39 +253,32 @@ br {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 30px;
+        gap: 20px;
         align-items: center;
 
         .techno__item {
             display: flex;
             gap: 20px;
-            flex-direction: column;
             align-items: center;
             padding: 20px;
-            width: 120px;
-            height: 160px;
+            height: 50px;
             border-radius: 10px;
             border: 2px solid grey;
             transition: 0.25s;
             background-color: $brokenWhite;
 
             .techno__img {
-                height: 100px;
+                height: 90%;
                 // filter: grayscale(100%) brightness(0.8);
+            }
+
+            &.godot .techno__img {
+                height: 110%;
             }
 
             &:hover {
                 transform: translate(0, -5px);
                 box-shadow: 0 0 10px 0 $boxShadowBlack;
-            }
-
-            .techno__nom {
-                height: 25%;
-                font-size: 12px;
-                text-align: center;
-                display: flex;
-                justify-content: center;
-                align-items: center;
             }
 
             h3,
@@ -297,6 +303,54 @@ $prenoms: (
         background-position: center;
         background-size: 105%;
         border: 2px solid rgba(255, 255, 255, 0.3);
+    }
+}
+
+.project {
+    position: relative;
+    background-color: #4D6DF3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 30vh;
+    width: 100vw;
+    color: $lightGrey ;
+
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        width: max-content;
+        margin: 0 auto;
+        margin: 10px auto 0 auto;
+        color: $lightGrey;
+        font-size: 18px;
+        text-decoration: none;
+        font-weight: 600;
+        border: 2px solid $lightGrey;
+        padding: 6px 10px;
+        border-radius: 5px;
+    }
+}
+
+.inaccessible {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: rgba(34, 33, 33, 0.821);
+    text-align: center;
+    width: 100vw;
+    height: 100%;
+    color: $lightGrey;
+
+    p {
+        font-size: 5rem;
+        color: red;
+        text-transform: uppercase;
     }
 }
 
@@ -403,6 +457,12 @@ button {
     cursor: pointer;
 }
 
+hr {
+    margin: 20px 0;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
 .infos {
     padding-top: 50px;
     display: flex;
@@ -448,11 +508,11 @@ button {
             margin: 0;
         }
 
-        hr {
-            margin: 20px 0;
-            border: 1px solid grey;
-            border-radius: 5px;
-        }
+        // hr {
+        //     margin: 20px 0;
+        //     border: 1px solid grey;
+        //     border-radius: 5px;
+        // }
 
         span {
             margin: 0 10px;
@@ -537,8 +597,9 @@ button {
     font-size: 13px !important;
 }
 
-.planning ul li {
-    margin: 7px 0;
+.planning ul li,
+.avancee-dates li {
+    margin: 7px 0 0 5px;
 }
 
 footer {
@@ -633,7 +694,18 @@ footer {
     }
 
     .techno {
+        margin: 0 auto;
         padding: 200px 0 100px 0;
+        width: 80%;
+
+        .techno__item {
+
+            height: 40px !important;
+
+            p {
+                font-size: 12px;
+            }
+        }
     }
 
     .members {

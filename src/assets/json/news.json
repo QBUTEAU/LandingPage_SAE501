@@ -1,15 +1,75 @@
 [
     {
-        "date": "28/11/2024",
+        "date": "23/01/2025",
+        "author": "Quentin & Jathushan",
+        "text": "Mise en place du choix de mode de jeu (1 ou 2 joueurs) au démarrage de la partie.",
+        "linkImg": "game-mode.png"
+    },
+    {
+        "date": "14/01/2025",
+        "author": "Jathushan",
+        "text": "Mise à jour du jeu - Correction des bugs du countdown et ajout de nouveaux éléments de décors. - v.1.1.1",
+        "linkImg": "beta_1401.jpg"
+    },
+    {
+        "date": "26/12/2024",
+        "author": "Yanis",
+        "text": "Début du développement du mode 1 JOUEUR.",
+        "linkImg": "dev_j1.png"
+    },
+    {
+        "date": "19/12/2024",
+        "author": "Yanis & Jathushan",
+        "text": "Petite mise à jour de la version BÊTA - Countdown, New Record et éléments de décors. - v.1.1.0",
+        "linkImg": "beta_1912.jpg"
+    },
+    {
+        "date": "19/12/2024",
+        "author": "Louis",
+        "text": "Finalisation de la création des différents décors, qui reprennent l'identité des salles de cours de la formation MMI.",
+        "linkImg": "maps.png"
+    },
+    {
+        "date": "18/12/2024",
         "author": "Louis et Jathushan",
-        "text": "Création de la première version de l'Attract Mode et déploiement de celle-ci et de la nouvelle version du jeu sur la borne principale.",
-        "linkImg": "attract_beta.gif"
+        "text": "Mise en place d'un compte à rebours, qui se lance au démarrage d'une partie.",
+        "linkImg": "countdown.gif"
+    },
+    {
+        "date": "17/12/2024",
+        "author": "Yanis & Jathushan",
+        "text": "Déploiement de la première version BÊTA sur la borne principale. - v1.0.0",
+        "linkImg": "deploiement_beta.jpg"
+    },
+    {
+        "date": "17/12/2024",
+        "author": "Louis & Jathushan",
+        "text": "Mise en place d'une animation de victoire spéciale lorsqu'un joueur bat le record du jeu.",
+        "linkImg": "win_record.gif"
+    },
+    {
+        "date": "15/12/2024",
+        "author": "Yanis & Jathushan",
+        "text": "Création des différents décors qui apparaîtront au fur et à mesure de la partie.",
+        "linkImg": "decors.png"
+    },
+    {
+        "date": "10/12/2024",
+        "author": "Louis et Jathushan",
+        "text": "Mise en place d'une animation de victoire, propre aux deux personnages.",
+        "linkImg": "win.gif"
+    },
+    {
+        "date": "03/12/2024",
+        "author": "Yanis et Jathushan",
+        "text": "Moteur principal du jeu terminé. ✅",
+        "linkImg": "moteur_fini.png"
     },
     {
         "date": "28/11/2024",
         "author": "Louis et Jathushan",
-        "text": "Mise en place d'un compte à rebours, qui se lance au démarrage d'une partie.",
-        "linkImg": "countdown.gif"
+        "text": "Création de la première version de l'Attract Mode et déploiement de celle-ci et de la deuxième version ALPHA du jeu sur la borne principale.",
+        "linkImg": "attract_beta.gif"
     },
     {
         "date": "18/11/2024",
@@ -27,7 +87,7 @@
         "date": "14/11/2024",
         "author": "Quentin & Jathushan",
         "text": "Mise en place de l'ajout du pseudonyme du vainqueur, envoi des données vers l'API des highscores fonctionnel.",
-        "linkImg": "pseudo-highscores.webp"
+        "linkImg": "pseudo-highscores.png"
     },
     {
         "date": "13/11/2024",
@@ -36,9 +96,15 @@
         "linkImg": "menu.webp"
     },
     {
+        "date": "13/11/2024",
+        "author": "Louis et Quentin",
+        "text": "Début de la génération de musiques via 'Suno' et de la recherche de sound effects.",
+        "linkImg": "suno.webp"
+    },
+    {
         "date": "25/10/2024",
         "author": "Yanis",
-        "text": "Déploiement de la première version BETA du jeu sur la borne princpale.",
+        "text": "Déploiement de la première version ALPHA du jeu sur la borne princpale.",
         "linkImg": "borne-2510.webp"
     },
     {
@@ -56,8 +122,8 @@
     {
         "date": "14/10/2024",
         "author": "Louis",
-        "text": "Création du décor - fond et montagnes.",
-        "linkImg": "decor.webp"
+        "text": "Création du décor principal du jeu.",
+        "linkImg": "decor_principal.webp"
     },
     {
         "date": "04/10/2024",
@@ -79,8 +145,14 @@
     },
     {
         "date": "02/10/2024",
+        "author": "Louis",
+        "text": "Début de la création d'obstacles, de power-ups et d'objets éliminatoires (Premier objet : Le PC).",
+        "linkImg": "ordi.png"
+    },
+    {
+        "date": "02/10/2024",
         "author": "Louis et Jathushan",
-        "text": "Création du personnage de P. Gomgom et de ses animations (idle, run, jump).",
+        "text": "Création du personnage de Pat Gom et de ses animations (idle, run, jump).",
         "linkImg": "mrgommery-moves.gif"
     },
     {

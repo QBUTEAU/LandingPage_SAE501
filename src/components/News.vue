@@ -1,8 +1,9 @@
 <template>
   <div class="infos__news" ref="infosNews">
-    <h2>NEWS</h2>
+    <h2>ACTUALITÉS</h2>
     <div v-if="newsList.length">
-      <div v-for="(newsItem, index) in paginatedNews" :key="index" :class="['news', { 'most-recent': isMostRecent(newsItem) }]">
+      <div v-for="(newsItem, index) in paginatedNews" :key="index"
+        :class="['news', { 'most-recent': isMostRecent(newsItem) }]">
         <div class="news__img" :style="{ backgroundImage: `url(${getImageUrl(newsItem.linkImg)})` }"></div>
         <p class="news__text">
           <span>{{ newsItem.author }} - {{ newsItem.date }}</span><br>
@@ -10,9 +11,11 @@
         </p>
       </div>
       <div class="pagination">
-        <button @click="prevPage" :disabled="currentPage === 1" :class="{ disabled: currentPage === 1 }">Précédente</button>
+        <button @click="prevPage" :disabled="currentPage === 1"
+          :class="{ disabled: currentPage === 1 }">Précédente</button>
         <span>Page {{ currentPage }} sur {{ totalPages }}</span>
-        <button @click="nextPage" :disabled="currentPage === totalPages" :class="{ disabled: currentPage === totalPages }">Suivante</button>
+        <button @click="nextPage" :disabled="currentPage === totalPages"
+          :class="{ disabled: currentPage === totalPages }">Suivante</button>
       </div>
     </div>
     <div v-else>

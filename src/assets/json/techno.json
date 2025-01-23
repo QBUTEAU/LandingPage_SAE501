@@ -1,7 +1,8 @@
 [
     {
         "name": "Godot Engine & GDScript",
-        "img": "godot.png"
+        "img": "godot.png",
+        "class": "godot"
     },
     {
         "name": "Pixilart",
@@ -14,13 +15,5 @@
     {
         "name": "Figma",
         "img": "figma.png"
-    },
-    {
-        "name": "CapCut",
-        "img": "capcut.webp"
-    },
-    {
-        "name": "Vue.js",
-        "img": "vuejs.svg"
     }
 ]

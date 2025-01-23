@@ -71,7 +71,7 @@ export default {
 <template>
   <header class="hero-header">
     <h1>SpeedDocker</h1>
-    <h4>Le premier speedrun faisant affronter Docker et P. Gomgom !</h4>
+    <h4>Le premier speedrun de l'univers MMI !</h4>
   </header>
 
   <div class="presentation">
@@ -85,13 +85,13 @@ export default {
     <div class="presentation__infos">
       <div class="presentation-infos__bar">
         <div v-if="showSAEProgress">
-          <p class="span-sae"><span>58%</span> du temps de travail passé.</p>
+          <p class="span-sae"><span>72%</span> du temps de travail passé.</p>
           <div class="progress-bar__sae">
             <div class="progress-bar-sae__lvl"></div>
           </div>
         </div>
         <div v-else>
-          <p class="span-team"><span>58%</span> du projet réalisé à ce jour.</p>
+          <p class="span-team"><span>77%</span> du projet réalisé à ce jour.</p>
           <div class="progress-bar__team">
             <div class="progress-bar-team__lvl"></div>
           </div>
@@ -101,13 +101,14 @@ export default {
         </button>
       </div>
       <h2>QU'EST-CE QUE SPEEDDOCKER ?</h2>
-      <p>SpeedDocker est un jeu d'arcade rapide et compétitif, conçu pour la borne de la formation MMI de l'IUT de
-        Troyes.
-        Inspiré du jeu SpeedRunners, il met en scène deux personnages emblématiques : la baleine de l'application Docker
-        et P. Gomgom.
-        Le principe est simple : survivre le plus longtemps possible en évitant les obstacles et grâce à des power-ups, et
-        plus la partie dure, plus ça devient compliqué !
-        Le premier à être hors-champ est éliminé !
+      <p style="font-size: 14px;">SpeedDocker est un jeu d'arcade rapide et compétitif, conçu pour la borne de la
+        formation MMI de l'IUT de
+        Troyes. Inspiré du jeu SpeedRunners, il met en scène deux personnages emblématiques : la baleine de
+        l'application
+        Docker et Pat Gom. Le principe est simple : en solo ou en 1v1, vous devez survivre le plus longtemps possible en
+        évitant les obstacles et grâce
+        à des power-ups, et plus la partie dure, plus ça devient compliqué ! En 1v1, le premier à être hors-champ est
+        éliminé !
         Avec ses mécaniques dynamiques et son rythme effréné, SpeedDocker promet des parties courtes mais intenses,
         idéales pour un environnement d'arcade.</p>
     </div>
@@ -122,6 +123,17 @@ export default {
     <ul class="members__list">
       <Member v-for="member in membersList" :key="member.name" :member="member" />
     </ul>
+  </div>
+
+  <div class="project">
+    <div class="inaccessible">
+      <p>à découvrir bientôt</p>
+    </div>
+    <h2>Découvrez un peu plus notre projet !</h2>
+    <a href="">
+      <i class="fa-brands fa-behance"></i>
+      <span>Behance</span>
+    </a>
   </div>
 
   <div class="burger">
@@ -157,7 +169,7 @@ export default {
   </div>
 
   <footer>
-    <p>© 2024. Octo Studio - Tous droits réservés</p>
+    <p>© 2024-2025. Octo Studio - Tous droits réservés</p>
   </footer>
 </template>
 
