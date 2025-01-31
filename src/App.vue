@@ -84,21 +84,10 @@ export default {
     </div>
     <div class="presentation__infos">
       <div class="presentation-infos__bar">
-        <div v-if="showSAEProgress">
-          <p class="span-sae"><span>72%</span> du temps de travail passé.</p>
-          <div class="progress-bar__sae">
-            <div class="progress-bar-sae__lvl"></div>
-          </div>
+        <p class="span-sae"><span>100%</span> du projet réalisé.</p>
+        <div class="progress-bar__sae">
+          <div class="progress-bar-sae__lvl"></div>
         </div>
-        <div v-else>
-          <p class="span-team"><span>77%</span> du projet réalisé à ce jour.</p>
-          <div class="progress-bar__team">
-            <div class="progress-bar-team__lvl"></div>
-          </div>
-        </div>
-        <button @click="toggleProgress">
-          {{ showSAEProgress ? 'Voir l\'avancée du projet' : 'Voir la temporalité du projet' }}
-        </button>
       </div>
       <h2>QU'EST-CE QUE SPEEDDOCKER ?</h2>
       <p style="font-size: 14px;">SpeedDocker est un jeu d'arcade rapide et compétitif, conçu pour la borne de la
@@ -125,12 +114,16 @@ export default {
     </ul>
   </div>
 
+  <section class="video">
+    <h2>Vidéo de présentation</h2>
+    <iframe src="https://www.youtube.com/embed/LeMK3rxYxYc?si=zj7lG-A5R0Y6rEof" title="SpeedDocker - Explications"
+      frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </section>
+
   <div class="project">
-    <div class="inaccessible">
-      <p>à découvrir bientôt</p>
-    </div>
     <h2>Découvrez un peu plus notre projet !</h2>
-    <a href="">
+    <a href="https://www.behance.net/gallery/218102919/SpeedDocker-Identit-graphique" target="_blank">
       <i class="fa-brands fa-behance"></i>
       <span>Behance</span>
     </a>
@@ -140,17 +133,17 @@ export default {
     <i class="fa-solid fa-bars"></i>
   </div>
 
-  <div class="infos">
+  <section class="infos">
     <ul class="menu">
       <h2 style="text-align:center; padding: 0; margin-bottom: 20px;">MENU</h2>
       <li><a href="#description" @click.prevent="setComponent('Description')"
           :class="{ active: currentComponent === 'Description' }">DESCRIPTION DU PROJET</a></li>
-      <li><a href="#avancee" @click.prevent="setComponent('Avancee')"
-          :class="{ active: currentComponent === 'Avancee' }">AVANCÉE DU PROJET</a></li>
       <li><a href="#note-cadrage" @click.prevent="setComponent('NoteCadrage')"
           :class="{ active: currentComponent === 'NoteCadrage' }">NOTE DE CADRAGE</a></li>
       <li><a href="#planning" @click.prevent="setComponent('Planning')"
           :class="{ active: currentComponent === 'Planning' }">PHASAGE / PLANNING</a></li>
+      <li><a href="#avancee" @click.prevent="setComponent('Avancee')"
+          :class="{ active: currentComponent === 'Avancee' }">AVANCÉE DU PROJET</a></li>
       <li><a href="#art-domaine" @click.prevent="setComponent('EtatArtDomaine')"
           :class="{ active: currentComponent === 'EtatArtDomaine' }">ÉTAT DE L'ART DU DOMAINE</a></li>
     </ul>
@@ -166,7 +159,7 @@ export default {
 
     <News />
 
-  </div>
+  </section>
 
   <footer>
     <p>© 2024-2025. Octo Studio - Tous droits réservés</p>

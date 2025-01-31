@@ -8,8 +8,8 @@
             comme celles prévues dans SpeedDocker, où la compétition se base sur la rapidité et la stratégie.</p>
 
         <h5>2. Mécaniques de Speedrun</h5>
-        <p>Le speedrun, popularisé par des jeux comme <u>Celeste</u>, <u>Portal</u> ou encore <u>Astro Bot</u>, met
-            l’accent sur la maîtrise
+        <p>Le speedrun, popularisé par des jeux comme <u>Celeste</u>, <u>Portal</u> ou encore le <u>T. Rex Game</u> de
+            Google, met l’accent sur la maîtrise
             des mouvements rapides et précis. SpeedDocker reprend ces éléments en ajoutant la pression d’une zone
             rétrécissante, forçant les joueurs à une compétition effrénée.</p>
 

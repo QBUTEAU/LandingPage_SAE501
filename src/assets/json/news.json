@@ -1,5 +1,53 @@
 [
     {
+        "date": "31/01/2025",
+        "author": "Octo Studio",
+        "text": "Fin du projet SpeedDocker.",
+        "linkImg": "fin.png"
+    },
+    {
+        "date": "29/01/2025",
+        "author": "Quentin",
+        "text": "Réalisation d'une affiche promotionnelle pour le jeu SpeedDocker.",
+        "linkImg": "affiche.png"
+    },
+    {
+        "date": "29/01/2025",
+        "author": "Jathushan & Yanis",
+        "text": "Déploiement de la version finale du jeu sur la borne - New Record 1 JOUEUR, Attract Mode et dernières maps. - v1.2.1",
+        "linkImg": "beta_2901.jpg"
+    },
+    {
+        "date": "29/01/2025",
+        "author": "Louis, Jathushan & Yanis",
+        "text": "Finalisation des différéntes maps standards du jeu.",
+        "linkImg": "maps_standards.png"
+    },
+    {
+        "date": "28/01/2025",
+        "author": "Louis & Jathushan",
+        "text": "Nouvelle animation lorsqu'un nouveau record est battu en mode 1 JOUEUR.",
+        "linkImg": "record-J1.gif"
+    },
+    {
+        "date": "28/01/2025",
+        "author": "Louis",
+        "text": "Version finale et officielle de l'Attract Mode.",
+        "linkImg": "attract_mode.gif"
+    },
+    {
+        "date": "24/01/2025",
+        "author": "Jathushan & Yanis",
+        "text": "Déploiement d'une nouvelle version du jeu sur la borne - Mode 1 JOUEUR et améliorations des interfaces. - v1.2.0",
+        "linkImg": "beta_2401.jpg"
+    },
+    {
+        "date": "24/01/2025",
+        "author": "Yanis & Jathushan",
+        "text": "Finalisation du mode 1 JOUEUR et intégration ee celui-ci dans le jeu complet.",
+        "linkImg": "1player-mode.png"
+    },
+    {
         "date": "23/01/2025",
         "author": "Quentin & Jathushan",
         "text": "Mise en place du choix de mode de jeu (1 ou 2 joueurs) au démarrage de la partie.",
@@ -8,7 +56,7 @@
     {
         "date": "14/01/2025",
         "author": "Jathushan",
-        "text": "Mise à jour du jeu - Correction des bugs du countdown et ajout de nouveaux éléments de décors. - v.1.1.1",
+        "text": "Mise à jour du jeu - Correction des bugs du countdown et ajout des derniers éléments de décors MMI. - v1.1.1",
         "linkImg": "beta_1401.jpg"
     },
     {
@@ -20,7 +68,7 @@
     {
         "date": "19/12/2024",
         "author": "Yanis & Jathushan",
-        "text": "Petite mise à jour de la version BÊTA - Countdown, New Record et éléments de décors. - v.1.1.0",
+        "text": "Petite mise à jour de la version BÊTA - Countdown, New Record et éléments de décors. - v1.1.0",
         "linkImg": "beta_1912.jpg"
     },
     {
@@ -28,6 +76,12 @@
         "author": "Louis",
         "text": "Finalisation de la création des différents décors, qui reprennent l'identité des salles de cours de la formation MMI.",
         "linkImg": "maps.png"
+    },
+    {
+        "date": "19/12/2024",
+        "author": "Louis",
+        "text": "Finalisation des éléments de décors et de jeu - Power-ups, obstacles, objets éliminatoires, panneaux de signalisation.",
+        "linkImg": "elements.png"
     },
     {
         "date": "18/12/2024",
@@ -86,7 +140,7 @@
     {
         "date": "14/11/2024",
         "author": "Quentin & Jathushan",
-        "text": "Mise en place de l'ajout du pseudonyme du vainqueur, envoi des données vers l'API des highscores fonctionnel.",
+        "text": "Mise en place de l'ajout du pseudonyme du vainqueur, dont seul le joueur en question peut le renseigner.",
         "linkImg": "pseudo-highscores.png"
     },
     {

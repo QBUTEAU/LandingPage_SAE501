@@ -1,9 +1,9 @@
 {
     "name": "SpeedDocker",
-    "description": "SpeedDocker est un jeu d'arcade compétitif où deux personnages emblématiques s'affrontent : la baleine de Docker, symbole de rapidité et de technologie, et Pat Gom, incarnation de l'esprit MMI. Dans un parcours semé d'obstacles et de power-ups, un mur de piques impitoyable pousse les joueurs à rester dans le cadre de l'écran. Seul le plus rapide et stratégique pourra éviter l'élimination dans ce duel effréné aux graphismes rétro !",
+    "description": "SpeedDocker est un jeu d'arcade compétitif aux graphismes rétro, où la baleine de Docker, symbole de technologie, et Pat Gom, incarnation de l'esprit MMI, s'affrontent. Jouable en solo ou en 1v1, le défi consiste à éviter les obstacles et power-ups pénalisants tout en restant dans le cadre de l'écran, sous la pression d'un mur de piques implacable. Seul le plus rapide et stratégique survivra !",
     "creator": "Jathushan Selvarajah, Yanis Taye, Quentin Buteau et Louis Thomas",
-    "year": "2024",
+    "year": "2025",
     "type": "Jeu de plateforme",
-    "players": "2",
+    "players": "1 ou 2",
     "highscores": []
 }
